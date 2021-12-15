@@ -1,0 +1,273 @@
+#contener 
+    {
+        display: flex;
+        flex-wrap: space-between;
+        width: 1920px;
+        height: 1080px;
+        background: #FFFFFF;
+    }
+b{
+    text-decoration: underline;
+}
+#contener1{ 
+    
+    width: 500px;
+    height: 1080px;
+    left: 680px;
+    top: 0px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
+} 
+
+#contener2{
+    width: 1620px;
+    height: 1080px;
+    left: 680px;
+    top: 0px;
+}
+#topbar{
+    display: flex;
+    flex-wrap: space-between;
+     
+    color: #FFFFFF;
+    width: 480px;
+    height: 40px;
+    left: 100px;
+    top: 100px;
+    margin-top: 100px;
+    margin-right: 10px;
+}
+#logo{
+    display: flex;
+    flex-wrap: space-between;
+    width: 118px;
+    height: 40px;
+    left: 100px;
+    top: 100px;
+    padding-left: 10px;
+    color: #FFFFFF;
+}
+
+#logo img{
+    width: 15px;
+    height: 20px;
+    left: 100px;
+    top: 100px;
+
+    /*background: #4066A5;*/
+}
+
+#logo span {
+    width: 78px;
+    height: 16px;
+    left: 140px;
+    top: 120px;
+    padding-left: 10px;
+    color: #131821;
+}
+ 
+#top-link{
+    float: right;
+    margin-left: 100px;
+}
+#top-link a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 16px;
+    line-height:26px;
+    color: #6A707B;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+#heading{
+    margin-top: 180px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 44px;
+    color: #131821;
+    text-align: center;
+}
+
+#sub-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 11px;
+    line-height: 28px;
+    color: #6A707B;
+    text-indent: 0%;
+    text-align: left;
+    margin-left: 50px;
+}
+#desk-in{
+    display: flex;
+    flex-wrap: space-between;
+}
+#desk-input{
+    Width: 450px;
+    Height:60px;
+    Top:539px;
+    Left:100px;
+    float: right;
+   
+}
+#dest-lab{
+    width: 4px;
+    height: 65px;
+    left: 100px;
+    top: 836px;
+    background: #4066A5;
+}
+#desk-in i{  
+    left: 100px;
+    
+    padding-top: 20px;  
+    box-sizing: border-box;
+    margin-left: -16px;
+}
+#tos{
+    display: flex;
+    flex-wrap: space-between;
+    width: 400px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+#tos input{
+    width: 14px;
+    height: 11px;
+    left: 146px;
+    top: 671px;
+    margin-top: 7px;
+    background: #4066A5;
+}
+
+#tos label{
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 28px;
+
+/* identical to box height, or 175% */
+
+color: #6A707B;
+}
+#desk-hr{
+    width: 400px;
+    height: 1px;
+    left: 140px;
+    top: 740px;
+
+    background: #E3E3E4;
+}
+#desk-social{
+    display: flex;
+    flex-wrap: space-between;
+    width: 244px;
+    height: 46px;
+    left: 218px;
+    top: 791px;
+    margin-left: 70px;
+}
+#desk-social i{ 
+    width: 50px;
+    height: 46px; 
+    top: 791px;
+    opacity: 0.3;
+}
+.fa-facebook{
+    left: 12.34%;
+    right: 87.24%;
+    top: 74.63%;
+    bottom: 23.89%;
+
+    
+}
+#mobile-contener{
+    display: none;
+}
+
+@media only screen and (max-width: 908px) {
+     #contener{
+        display: none;
+     } 
+     body{
+        left: -281px;
+        top: 66px;
+        background: url(./images/image_summer.png); 
+     }
+     #mobile-contener{
+        display: block;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+
+     }
+     #mobile-contener #topbar{
+        width: 100%;
+        height: 66px;
+        position: fixed; 
+        
+        left: 0px;
+        top: 0px;
+        margin-top: 0%;
+        margin-bottom: 50px;
+
+        background: #FFFFFF;
+    }
+    #top-link {
+        padding-top: 10px;
+        float: right;
+        margin-left: 100px;
+    }
+    #logo{
+        padding-top: 10px;
+    }
+    #main-mobile{
+         
+        margin-top: 200px;
+        width: 335px;
+        height: 371px;
+        left: 20px;
+        top: 254px;
+
+        background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
+
+    }
+    #main-mobile #heading{
+        margin-top: 0%;
+        font-size: 24px;
+     }
+     #main-mobile #sub-text{
+         font-size: 14px;
+     }
+     #main-mobile #desk-input{
+        font-size: 16px;
+        line-height: 24px;
+     }
+     #main-mobile hr{
+        margin-left: 70px;
+        width: 200px;
+     }
+  }
+  @media only screen and (max-width:452px){
+      body{
+          font-size: 7px;
+
+      }
+      #top-link a{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400px;
+        font-style: normal;
+        font-size: 7px;
+        line-height:26px;
+        color: #6A707B;
+        text-decoration: none;
+        margin-left: 5px;
+    }
+  }
